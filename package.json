@@ -1,0 +1,16 @@
+{
+  "name": "adventure3",
+  "description": "Yet another try at a Jekyll-based solo RPG platform",
+  "version": "0.1.0",
+  "maintainers": [
+    {
+      "name": "Igor Padoim",
+      "email": "igorpadoim@gmail.com",
+      "web": "https://nereare.com/"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/Nereare/adventure3/issues"
+  },
+  "license": "WTFPL"
+}

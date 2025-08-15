@@ -1,0 +1,37 @@
+* text=auto
+
+## GRAPHICS
+*.ai   filter=lfs diff=lfs merge=lfs -text
+*.bmp  binary
+*.eps  filter=lfs diff=lfs merge=lfs -text
+*.gif  binary
+*.ico  binary
+*.jng  binary
+*.jp2  binary
+*.jpg  binary
+*.jpeg binary
+*.jpx  binary
+*.jxr  binary
+*.pdf  binary
+*.png  binary
+*.psb  binary
+*.psd  filter=lfs diff=lfs merge=lfs -text
+*.svg  text
+*.svgz binary
+*.tif  filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.wbmp binary
+*.webp binary
+
+## AUDIO
+*.mid  filter=lfs diff=lfs merge=lfs -text
+*.midi filter=lfs diff=lfs merge=lfs -text
+*.mp3  filter=lfs diff=lfs merge=lfs -text
+*.ogg  filter=lfs diff=lfs merge=lfs -text
+
+## FONTS
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
