@@ -16,8 +16,14 @@ Gem::Specification.new do |spec|
   spec.metadata['changelog_uri']   = 'https://github.com/Nereare/adventure3/blob/master/CHANGELOG.md'
   spec.metadata['homepage_uri']    = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
+  spec.metadata["plugin_type"]     = 'theme'
 
-  spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
+  spec.files = `git ls-files -z`.split("\x0").select do |f|
+    f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i)
+  end
 
   spec.add_runtime_dependency 'jekyll', '~> 4.4'
+
+  spec.add_development_dependency 'rubocop', '~> 1.79'
+  spec.add_development_dependency 'logger', '~> 1.7'
 end
