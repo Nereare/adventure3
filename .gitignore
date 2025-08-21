@@ -1,5 +1,27 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.ruby-version
+# Tests
+_posts/
+_config.yml
+index.md
+
+# Bundler
+.bundle/
+vendor/
+Gemfile.lock
+
+# Gems
 *.gem
-.bundle
-.jekyll-cache
-.sass-cache
-_site
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
